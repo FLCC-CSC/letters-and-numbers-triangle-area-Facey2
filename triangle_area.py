@@ -1,8 +1,8 @@
 # FILE NAME - triangle_area.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Sheri Facey
+# DATE: 02/14/2025
+# BRIEF DESCRIPTION:Calculating the area of a triangle 
 
 
 
@@ -16,11 +16,16 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+
     
     
-    
-    
-    
+print()
+height = int(input('Enter the height: '))
+base = int(input('Enter the base: '))
+
+area = 0.5 * height *  base
+print()
+print(f'The area of the triangle is: {area}')
     
     
     
@@ -67,10 +72,19 @@ The area of the triangle is 16.0
 1. What is the flow of the program? Which line of code kicks off the process?
 
 
+first you get the height and the base and then the area variable kicks off the code by doing the math to find the are
 
 
 
 2. What was the hardest part of this lab?
+
+
+the hardest part was again correctly putting the varibale in the function of a print 
+statement took some practice of weather or not to use the {} brackets or a comma
+
+
+
+
 
 
 
